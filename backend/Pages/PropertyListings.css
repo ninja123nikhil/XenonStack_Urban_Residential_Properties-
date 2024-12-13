@@ -1,0 +1,38 @@
+.property-listings {
+    padding: 2rem;
+  }
+  
+  .property-listings h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .property-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .property-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .property-card p {
+    margin-bottom: 0.5rem;
+  }
+  
+  
